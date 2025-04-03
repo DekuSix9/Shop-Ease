@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+import upArrow from '../../assets/Img/Frame 7 (1).png'
 import mobileImg from "../../assets/Img/Frame 9.png";
 import watchImg from "../../assets/Img/image 1.png";
 import laptopImg from "../../assets/Img/image 2.png";
@@ -54,7 +55,7 @@ const AllproductSection = () => {
                 <span className="text-gray-500 text-sm">{card.items} Items</span>
                 <h3 className="text-lg font-semibold">{card.title}</h3>
                 <div className="absolute top-14 right-5 text-xl text-gray-600"> 
-                  →
+                  <img src={upArrow}></img>
                 </div>
                 <img src={card.img} alt={card.title} className="w-24 h-24 object-contain my-2" />
                 <span className="text-orange-500 border border-orange-500 px-2 py-1 text-xs rounded">{card.label}</span>
@@ -64,7 +65,7 @@ const AllproductSection = () => {
         ))}
       </div>
 
-      {/* Navigation Buttons */}
+     
       <button
         onClick={prevSlide}
         className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow"
