@@ -13,7 +13,7 @@ const Subscriber = () => {
   };
 
   return (
-    <div className="bg-orange-600 text-white h-[442px] w-[90%] mx-auto rounded-lg flex flex-col items-center justify-center">
+    <div className="bg-orange-600 text-white h-[400px] w-[90%] mx-auto my-12 rounded-lg flex flex-col items-center justify-center">
       <h2 className="text-[42px] font-semibold mb-6 text-[#FFFFFF]">Subscribe to our newsletter</h2>
       <form onSubmit={handleSubmit} className="flex flex-wrap gap-4 justify-center">
         <input
@@ -22,7 +22,7 @@ const Subscriber = () => {
           placeholder="First name"
           value={formData.name}
           onChange={handleChange}
-          className="h-[82px] w-[350px] px-4 rounded-md text-white placeholder-white  border border-white outline-none"
+          className="h-[70px] w-[350px] px-4 rounded-md text-white placeholder-white  border border-white outline-none"
           required
         />
         <input
@@ -31,12 +31,12 @@ const Subscriber = () => {
           placeholder="Email address"
           value={formData.email}
           onChange={handleChange}
-          className="h-[82px] w-[350px] px-4 rounded-md text-white placeholder-white  border border-white outline-none"
+          className="h-[70px] w-[350px] px-4 rounded-md text-white placeholder-white  border border-white outline-none"
           required
         />
         <button
           type="submit"
-          className="h-[82px] w-[350px] bg-black text-white rounded-md font-semibold hover:bg-gray-800 transition"
+          className="h-[70px] w-[350px] bg-black text-white rounded-md font-semibold hover:bg-gray-800 transition"
         >
           Subscribe Now
         </button>
