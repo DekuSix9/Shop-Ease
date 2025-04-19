@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "photo": "https://example.com/images/applewatch8.jpg",
+      "productName": "Apple Watch Series 8",
+      "price": "৳ 48,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 2,
+      "photo": "https://example.com/images/samsungwatch5.jpg",
+      "productName": "Samsung Galaxy Watch 5",
+      "price": "৳ 29,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 3,
+      "photo": "https://example.com/images/xiaomiwatchs1.jpg",
+      "productName": "Xiaomi Watch S1",
+      "price": "৳ 16,500",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 4,
+      "photo": "https://example.com/images/haylours4.jpg",
+      "productName": "Haylou RS4 Plus",
+      "price": "৳ 4,200",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 5,
+      "photo": "https://example.com/images/huaweiwatchgt3.jpg",
+      "productName": "Huawei Watch GT 3",
+      "price": "৳ 23,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 6,
+      "photo": "https://example.com/images/amazfitgtr3.jpg",
+      "productName": "Amazfit GTR 3 Pro",
+      "price": "৳ 18,500",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 7,
+      "photo": "https://example.com/images/noisecolorfit.jpg",
+      "productName": "Noise ColorFit Pro 4",
+      "price": "৳ 3,900",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 8,
+      "photo": "https://example.com/images/boatxtend.jpg",
+      "productName": "boAt Xtend Smartwatch",
+      "price": "৳ 2,800",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 9,
+      "photo": "https://example.com/images/fireboltgolden.jpg",
+      "productName": "Fire-Boltt Phoenix Pro",
+      "price": "৳ 3,300",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 10,
+      "photo": "https://example.com/images/t55ultra.jpg",
+      "productName": "T55 Ultra Smart Watch",
+      "price": "৳ 1,100",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 11,
+      "photo": "https://example.com/images/miband8.jpg",
+      "productName": "Mi Band 8",
+      "price": "৳ 3,400",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 12,
+      "photo": "https://example.com/images/gshock.jpg",
+      "productName": "Casio G-Shock GBD-800",
+      "price": "৳ 9,500",
+      "cartIcon": "🛒"
+    }
+  ]
+  

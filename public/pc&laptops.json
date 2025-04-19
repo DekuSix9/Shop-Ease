@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "photo": "https://example.com/images/macbookair.jpg",
+      "productName": "MacBook Air M2",
+      "price": "৳ 1,39,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 2,
+      "photo": "https://example.com/images/dellxps.jpg",
+      "productName": "Dell XPS 13",
+      "price": "৳ 1,29,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 3,
+      "photo": "https://example.com/images/lenovolegion.jpg",
+      "productName": "Lenovo Legion 5",
+      "price": "৳ 1,14,500",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 4,
+      "photo": "https://example.com/images/asusvivobook.jpg",
+      "productName": "ASUS Vivobook 15",
+      "price": "৳ 72,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 5,
+      "photo": "https://example.com/images/hpomen.jpg",
+      "productName": "HP Omen 16",
+      "price": "৳ 1,25,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 6,
+      "photo": "https://example.com/images/msigf63.jpg",
+      "productName": "MSI GF63 Thin",
+      "price": "৳ 89,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 7,
+      "photo": "https://example.com/images/aceraspire.jpg",
+      "productName": "Acer Aspire 5",
+      "price": "৳ 62,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 8,
+      "photo": "https://example.com/images/razerblade.jpg",
+      "productName": "Razer Blade 15",
+      "price": "৳ 2,00,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 9,
+      "photo": "https://example.com/images/hp15s.jpg",
+      "productName": "HP 15s",
+      "price": "৳ 56,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 10,
+      "photo": "https://example.com/images/dellinspiron.jpg",
+      "productName": "Dell Inspiron 15",
+      "price": "৳ 66,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 11,
+      "photo": "https://example.com/images/lenovothinkpad.jpg",
+      "productName": "Lenovo ThinkPad E14",
+      "price": "৳ 85,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 12,
+      "photo": "https://example.com/images/macbookpro.jpg",
+      "productName": "MacBook Pro M3",
+      "price": "৳ 2,39,000",
+      "cartIcon": "🛒"
+    }
+  ]
+  

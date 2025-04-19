@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+
 import appStore from '../../assets/Img/image 34.svg'
 import playStore from '../../assets/Img/image 33.svg'
 const Footer = () => {
@@ -14,10 +14,7 @@ const Footer = () => {
           </p>
           {/* Social Icons */}
           <div className="flex gap-4 mt-4">
-            <FaFacebookF className="text-xl cursor-pointer hover:text-orange-500 transition" />
-            <FaInstagram className="text-xl cursor-pointer hover:text-orange-500 transition" />
-            <FaYoutube className="text-xl cursor-pointer hover:text-orange-500 transition" />
-            <FaLinkedinIn className="text-xl cursor-pointer hover:text-orange-500 transition" />
+            
           </div>
           {/* App Download Buttons */}
           <div className="mt-6">

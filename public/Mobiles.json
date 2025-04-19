@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "photo": "https://example.com/images/iphone14.jpg",
+      "productName": "iPhone 14 Pro",
+      "price": "Tk 1,09,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 2,
+      "photo": "https://example.com/images/s22ultra.jpg",
+      "productName": "Samsung Galaxy S22 Ultra",
+      "price": "Tk 1,19,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 3,
+      "photo": "https://example.com/images/pixel7.jpg",
+      "productName": "Google Pixel 7",
+      "price": "Tk 64,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 4,
+      "photo": "https://example.com/images/oneplus11.jpg",
+      "productName": "OnePlus 11",
+      "price": "Tk 78,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 5,
+      "photo": "https://example.com/images/xiaomi13.jpg",
+      "productName": "Xiaomi 13 Pro",
+      "price": "Tk 84,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 6,
+      "photo": "https://example.com/images/opporeno10.jpg",
+      "productName": "Oppo Reno10",
+      "price": "Tk 57,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 7,
+      "photo": "https://example.com/images/vivoX90.jpg",
+      "productName": "Vivo X90",
+      "price": "Tk 79,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 8,
+      "photo": "https://example.com/images/sonyXperia.jpg",
+      "productName": "Sony Xperia 5 IV",
+      "price": "Tk 94,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 9,
+      "photo": "https://example.com/images/nothingPhone2.jpg",
+      "productName": "Nothing Phone 2",
+      "price": "Tk 69,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 10,
+      "photo": "https://example.com/images/realmeGT3.jpg",
+      "productName": "Realme GT 3",
+      "price": "Tk 59,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 11,
+      "photo": "https://example.com/images/asusrog6.jpg",
+      "productName": "ASUS ROG Phone 6",
+      "price": "Tk 99,999",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 12,
+      "photo": "https://example.com/images/tecnoPhantom.jpg",
+      "productName": "Tecno Phantom X2",
+      "price": "Tk 47,999",
+      "cartIcon": "🛒"
+    }
+  ]
+  

@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "photo": "https://example.com/images/jbl520bt.jpg",
+      "productName": "JBL Tune 520BT",
+      "price": "৳ 2,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 2,
+      "photo": "https://example.com/images/sonywh1000xm5.jpg",
+      "productName": "Sony WH-1000XM5",
+      "price": "৳ 38,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 3,
+      "photo": "https://example.com/images/airpodspro2.jpg",
+      "productName": "AirPods Pro 2",
+      "price": "৳ 28,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 4,
+      "photo": "https://example.com/images/ankerq30.jpg",
+      "productName": "Anker Soundcore Q30",
+      "price": "৳ 6,500",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 5,
+      "photo": "https://example.com/images/boatrockerz.jpg",
+      "productName": "boAt Rockerz 450",
+      "price": "৳ 1,800",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 6,
+      "photo": "https://example.com/images/miheadphones.jpg",
+      "productName": "MI Wired Headphones",
+      "price": "৳ 1,200",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 7,
+      "photo": "https://example.com/images/bose700.jpg",
+      "productName": "Bose 700",
+      "price": "৳ 42,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 8,
+      "photo": "https://example.com/images/realmebuds.jpg",
+      "productName": "Realme Buds Wireless 2",
+      "price": "৳ 2,400",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 9,
+      "photo": "https://example.com/images/samsungbuds2pro.jpg",
+      "productName": "Samsung Galaxy Buds 2 Pro",
+      "price": "৳ 18,000",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 10,
+      "photo": "https://example.com/images/lenovoneckband.jpg",
+      "productName": "Lenovo HE05 Neckband",
+      "price": "৳ 750",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 11,
+      "photo": "https://example.com/images/haylougt1.jpg",
+      "productName": "Haylou GT1 Pro",
+      "price": "৳ 1,600",
+      "cartIcon": "🛒"
+    },
+    {
+      "id": 12,
+      "photo": "https://example.com/images/redmibuds4.jpg",
+      "productName": "Redmi Buds 4",
+      "price": "৳ 2,900",
+      "cartIcon": "🛒"
+    }
+  ]
+  
