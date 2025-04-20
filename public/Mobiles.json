@@ -1,84 +1,84 @@
 [
     {
       "id": 1,
-      "photo": "https://example.com/images/iphone14.jpg",
+      "photo": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-14-pro-deep-purple-back.png?v=69ff7443",
       "productName": "iPhone 14 Pro",
       "price": "Tk 1,09,999",
       "cartIcon": "🛒"
     },
     {
       "id": 2,
-      "photo": "https://example.com/images/s22ultra.jpg",
+      "photo": "https://www.bdprice.com.bd/wp-content/uploads/2022/01/Samsung-Galaxy-S22-Ultra-5G-Price-in-Bangladesh.jpg",
       "productName": "Samsung Galaxy S22 Ultra",
       "price": "Tk 1,19,999",
       "cartIcon": "🛒"
     },
     {
       "id": 3,
-      "photo": "https://example.com/images/pixel7.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/Pixel-7-Obsidian-1130.jpg",
       "productName": "Google Pixel 7",
       "price": "Tk 64,999",
       "cartIcon": "🛒"
     },
     {
       "id": 4,
-      "photo": "https://example.com/images/oneplus11.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/OnePlus-11-(3)-4957.jpg",
       "productName": "OnePlus 11",
       "price": "Tk 78,999",
       "cartIcon": "🛒"
     },
     {
       "id": 5,
-      "photo": "https://example.com/images/xiaomi13.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/Xiaomi-13-Pro-Ceramic-White-4073.jpg",
       "productName": "Xiaomi 13 Pro",
       "price": "Tk 84,999",
       "cartIcon": "🛒"
     },
     {
       "id": 6,
-      "photo": "https://example.com/images/opporeno10.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/Oppo-Reno10-Pro-(1)-2150.jpg",
       "productName": "Oppo Reno10",
       "price": "Tk 57,999",
       "cartIcon": "🛒"
     },
     {
       "id": 7,
-      "photo": "https://example.com/images/vivoX90.jpg",
+      "photo": "https://www.mobiledokan.com/media/1713867351W6tm1.webp",
       "productName": "Vivo X90",
       "price": "Tk 79,999",
       "cartIcon": "🛒"
     },
     {
       "id": 8,
-      "photo": "https://example.com/images/sonyXperia.jpg",
+      "photo": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjEzMnkzUVBjbkwuX0FDX1NMMTUwMF8uanBn.jpg",
       "productName": "Sony Xperia 5 IV",
       "price": "Tk 94,999",
       "cartIcon": "🛒"
     },
     {
       "id": 9,
-      "photo": "https://example.com/images/nothingPhone2.jpg",
+      "photo": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2023/07/nothing-phone-2-render.png",
       "productName": "Nothing Phone 2",
       "price": "Tk 69,999",
       "cartIcon": "🛒"
     },
     {
       "id": 10,
-      "photo": "https://example.com/images/realmeGT3.jpg",
+      "photo": "https://m.media-amazon.com/images/I/61Kv92hbPRL.jpg",
       "productName": "Realme GT 3",
       "price": "Tk 59,999",
       "cartIcon": "🛒"
     },
     {
       "id": 11,
-      "photo": "https://example.com/images/asusrog6.jpg",
+      "photo": "https://dlcdnwebimgs.asus.com/gain/A01D1AA3-3983-4DBE-8054-E35ABA237311",
       "productName": "ASUS ROG Phone 6",
       "price": "Tk 99,999",
       "cartIcon": "🛒"
     },
     {
       "id": 12,
-      "photo": "https://example.com/images/tecnoPhantom.jpg",
+      "photo": "https://www.mobiledokan.com/media/1714284078REpcA.webp",
       "productName": "Tecno Phantom X2",
       "price": "Tk 47,999",
       "cartIcon": "🛒"

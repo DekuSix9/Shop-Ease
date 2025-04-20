@@ -1,86 +1,86 @@
 [
     {
       "id": 1,
-      "photo": "https://example.com/images/macbookair.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Air-M2-13.6-inch-8256GB-midnight-1121.jpg",
       "productName": "MacBook Air M2",
-      "price": "৳ 1,39,999",
+      "price": "Tk 1,39,999",
       "cartIcon": "🛒"
     },
     {
       "id": 2,
-      "photo": "https://example.com/images/dellxps.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/XPS-13-9315-7034.jpg",
       "productName": "Dell XPS 13",
-      "price": "৳ 1,29,000",
+      "price": "Tk 1,29,000",
       "cartIcon": "🛒"
     },
     {
       "id": 3,
-      "photo": "https://example.com/images/lenovolegion.jpg",
+      "photo": "https://www.pqs.com.bd/image/cache/catalog/laptop/Legion%205%2016IRX9/lenovo-legion-5i-gaming-16irx9-14th-gen-02-500x500.webp",
       "productName": "Lenovo Legion 5",
-      "price": "৳ 1,14,500",
+      "price": "Tk 1,14,500",
       "cartIcon": "🛒"
     },
     {
       "id": 4,
-      "photo": "https://example.com/images/asusvivobook.jpg",
+      "photo": "https://fourstaritbd.com/wp-content/uploads/2024/02/ASUS-Vivobook-15-X1502ZA-BQ014W-2-1.webp",
       "productName": "ASUS Vivobook 15",
-      "price": "৳ 72,000",
+      "price": "Tk 72,000",
       "cartIcon": "🛒"
     },
     {
       "id": 5,
-      "photo": "https://example.com/images/hpomen.jpg",
+      "photo": "https://mcsolution.com.bd/wp-content/uploads/2023/07/HP-OMEN-16-Wf0066TX-Gaming-Laptop-MC-Solution-BD-1-600x600.webp",
       "productName": "HP Omen 16",
-      "price": "৳ 1,25,000",
+      "price": "Tk 1,25,000",
       "cartIcon": "🛒"
     },
     {
       "id": 6,
-      "photo": "https://example.com/images/msigf63.jpg",
+      "photo": "https://ubsbd.com.bd/wp-content/uploads/2024/10/GF-63-thin-10SC-1-1.jpg",
       "productName": "MSI GF63 Thin",
-      "price": "৳ 89,000",
+      "price": "Tk 89,000",
       "cartIcon": "🛒"
     },
     {
       "id": 7,
-      "photo": "https://example.com/images/aceraspire.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyO20gUij5a-D_AKZzM51O9EroGBjrNDMwDQ&s",
       "productName": "Acer Aspire 5",
-      "price": "৳ 62,000",
+      "price": "Tk 62,000",
       "cartIcon": "🛒"
     },
     {
       "id": 8,
-      "photo": "https://example.com/images/razerblade.jpg",
+      "photo": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/blade-15/base-model_1-500x500.jpg",
       "productName": "Razer Blade 15",
-      "price": "৳ 2,00,000",
+      "price": "Tk 2,00,000",
       "cartIcon": "🛒"
     },
     {
       "id": 9,
-      "photo": "https://example.com/images/hp15s.jpg",
+      "photo": "https://smartbd.com/wp-content/uploads/2023/08/15s-fq2644tu-02-500x500-1.jpg",
       "productName": "HP 15s",
-      "price": "৳ 56,000",
+      "price": "Tk 56,000",
       "cartIcon": "🛒"
     },
     {
       "id": 10,
-      "photo": "https://example.com/images/dellinspiron.jpg",
+      "photo": "https://computermania.com.bd/wp-content/uploads/2025/01/Dell-Inspiron-15-2-1.jpg",
       "productName": "Dell Inspiron 15",
-      "price": "৳ 66,000",
+      "price": "Tk 66,000",
       "cartIcon": "🛒"
     },
     {
       "id": 11,
-      "photo": "https://example.com/images/lenovothinkpad.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTou9MfN-eUakDt1M97fGavtDhvLcyZaLRqiQ&s",
       "productName": "Lenovo ThinkPad E14",
-      "price": "৳ 85,000",
+      "price": "Tk 85,000",
       "cartIcon": "🛒"
     },
     {
       "id": 12,
-      "photo": "https://example.com/images/macbookpro.jpg",
+      "photo": "https://mcsolution.com.bd/wp-content/uploads/2023/10/MacBook-Pro-M3-2023-Space-Black-Price-in-Bangladesh-MC-Solution-BD-2.webp",
       "productName": "MacBook Pro M3",
-      "price": "৳ 2,39,000",
+      "price": "Tk 2,39,000",
       "cartIcon": "🛒"
     }
   ]

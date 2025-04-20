@@ -1,86 +1,86 @@
 [
     {
       "id": 1,
-      "photo": "https://example.com/images/iphone14.jpg",
+      "photo": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-14-pro-deep-purple-back.png?v=69ff7443",
       "productName": "iPhone 14 Pro",
-      "price": "৳ 1,09,890",
+      "price": "Tk 1,09,890",
       "cartIcon": "🛒"
     },
     {
       "id": 2,
-      "photo": "https://example.com/images/s22ultra.jpg",
+      "photo": "https://www.bdprice.com.bd/wp-content/uploads/2022/01/Samsung-Galaxy-S22-Ultra-5G-Price-in-Bangladesh.jpg",
       "productName": "Samsung Galaxy S22 Ultra",
-      "price": "৳ 1,31,610",
+      "price": "Tk 1,31,610",
       "cartIcon": "🛒"
     },
     {
       "id": 3,
-      "photo": "https://example.com/images/macbookair.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Air-M2-13.6-inch-8256GB-midnight-1121.jpg",
       "productName": "MacBook Air M2",
-      "price": "৳ 1,39,999",
+      "price": "Tk 1,39,999",
       "cartIcon": "🛒"
     },
     {
       "id": 4,
-      "photo": "https://example.com/images/asusvivobook.jpg",
+      "photo": "https://fourstaritbd.com/wp-content/uploads/2024/02/ASUS-Vivobook-15-X1502ZA-BQ014W-2-1.webp",
       "productName": "ASUS VivoBook 15",
-      "price": "৳ 87,500",
+      "price": "Tk 87,500",
       "cartIcon": "🛒"
     },
     {
       "id": 5,
-      "photo": "https://example.com/images/jbl520bt.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnSvvxKR2fhep3sADWXED9pkcEgNgCQA29OA&s",
       "productName": "JBL Tune 520BT",
-      "price": "৳ 2,000",
+      "price": "Tk 2,000",
       "cartIcon": "🛒"
     },
     {
       "id": 6,
-      "photo": "https://example.com/images/sonywh1000xm5.jpg",
+      "photo": "https://diamu.com.bd/wp-content/uploads/2022/05/Sony-WH-1000XM5-Wireless-Headphones.jpg",
       "productName": "Sony WH-1000XM5",
-      "price": "৳ 39,500",
+      "price": "Tk 39,500",
       "cartIcon": "🛒"
     },
     {
       "id": 7,
-      "photo": "https://example.com/images/miwatchlite.jpg",
+      "photo": "https://brotherselectronicsbd.com/image/cache/catalog/demo/Accessories/Xiaomi/Mi%20Watch%20Lite/Watch%20Lite%20(2)-800x800.jpg",
       "productName": "Mi Watch Lite",
-      "price": "৳ 4,500",
+      "price": "Tk 4,500",
       "cartIcon": "🛒"
     },
     {
       "id": 8,
-      "photo": "https://example.com/images/applewatchs8.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXHQWWvW8G45UDiQybvhLBshGWvZAasQxbQ&s",
       "productName": "Apple Watch Series 8",
-      "price": "৳ 45,000",
+      "price": "Tk 45,000",
       "cartIcon": "🛒"
     },
     {
       "id": 9,
-      "photo": "https://example.com/images/googlepixel7.jpg",
+      "photo": "https://www.mobiledokan.com/media/1710049030YCxoz.webp",
       "productName": "Google Pixel 7",
-      "price": "৳ 65,710",
+      "price": "Tk 65,710",
       "cartIcon": "🛒"
     },
     {
       "id": 10,
-      "photo": "https://example.com/images/rogstrix.jpg",
+      "photo": "https://computermania.com.bd/wp-content/uploads/2025/01/00013-ASUS-ROG-Strix-5.jpg",
       "productName": "ROG Strix G15",
-      "price": "৳ 1,49,000",
+      "price": "Tk 1,49,000",
       "cartIcon": "🛒"
     },
     {
       "id": 11,
-      "photo": "https://example.com/images/boatheadset.jpg",
+      "photo": "https://app-area.riointernational.com.bd/productImages/1736425040rDGfn.png",
       "productName": "boAt Rockerz 450",
-      "price": "৳ 1,800",
+      "price": "Tk 1,800",
       "cartIcon": "🛒"
     },
     {
       "id": 12,
-      "photo": "https://example.com/images/galaxywatch6.jpg",
+      "photo": "https://app-area.riointernational.com.bd/productImages/1734711503X0PHy.png",
       "productName": "Galaxy Watch 6",
-      "price": "৳ 35,000",
+      "price": "Tk 35,000",
       "cartIcon": "🛒"
     }
   ]

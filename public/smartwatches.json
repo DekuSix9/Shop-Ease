@@ -1,86 +1,86 @@
 [
     {
       "id": 1,
-      "photo": "https://example.com/images/applewatch8.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXHQWWvW8G45UDiQybvhLBshGWvZAasQxbQ&s",
       "productName": "Apple Watch Series 8",
-      "price": "৳ 48,000",
+      "price": "Tk 48,000",
       "cartIcon": "🛒"
     },
     {
       "id": 2,
-      "photo": "https://example.com/images/samsungwatch5.jpg",
+      "photo": "https://app-area.riointernational.com.bd/productImages/1734711503X0PHy.png",
       "productName": "Samsung Galaxy Watch 5",
-      "price": "৳ 29,000",
+      "price": "Tk 29,000",
       "cartIcon": "🛒"
     },
     {
       "id": 3,
-      "photo": "https://example.com/images/xiaomiwatchs1.jpg",
+      "photo": "https://www.mobilebazar.com.bd/assets/img/Xiaomi-Watch-S1-Active.webp",
       "productName": "Xiaomi Watch S1",
-      "price": "৳ 16,500",
+      "price": "Tk 16,500",
       "cartIcon": "🛒"
     },
     {
       "id": 4,
-      "photo": "https://example.com/images/haylours4.jpg",
+      "photo": "https://uniquegadget.com.bd/wp-content/uploads/2022/05/Haylou-RS4-Plus-Smart-Watch.jpg",
       "productName": "Haylou RS4 Plus",
-      "price": "৳ 4,200",
+      "price": "Tk 4,200",
       "cartIcon": "🛒"
     },
     {
       "id": 5,
-      "photo": "https://example.com/images/huaweiwatchgt3.jpg",
+      "photo": "https://diamu.com.bd/wp-content/uploads/2022/10/HUAWEI-WATCH-GT-3-42mm-Active-Edition.jpg",
       "productName": "Huawei Watch GT 3",
-      "price": "৳ 23,000",
+      "price": "Tk 23,000",
       "cartIcon": "🛒"
     },
     {
       "id": 6,
-      "photo": "https://example.com/images/amazfitgtr3.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/3654-49348.jpg",
       "productName": "Amazfit GTR 3 Pro",
-      "price": "৳ 18,500",
+      "price": "Tk 18,500",
       "cartIcon": "🛒"
     },
     {
       "id": 7,
-      "photo": "https://example.com/images/noisecolorfit.jpg",
+      "photo": "https://diamu.com.bd/wp-content/uploads/2023/07/Noise-ColorFit-Pro-4-Alpha-Calling-Smart-Watch-2.jpg",
       "productName": "Noise ColorFit Pro 4",
-      "price": "৳ 3,900",
+      "price": "Tk 3,900",
       "cartIcon": "🛒"
     },
     {
       "id": 8,
-      "photo": "https://example.com/images/boatxtend.jpg",
+      "photo": "https://www.boat-lifestyle.com/cdn/shop/products/main-images-2.png?v=1655198531",
       "productName": "boAt Xtend Smartwatch",
-      "price": "৳ 2,800",
+      "price": "Tk 2,800",
       "cartIcon": "🛒"
     },
     {
       "id": 9,
-      "photo": "https://example.com/images/fireboltgolden.jpg",
+      "photo": "https://m.media-amazon.com/images/I/61hHp8WaBVL.jpg",
       "productName": "Fire-Boltt Phoenix Pro",
-      "price": "৳ 3,300",
+      "price": "Tk 3,300",
       "cartIcon": "🛒"
     },
     {
       "id": 10,
-      "photo": "https://example.com/images/t55ultra.jpg",
+      "photo": "https://ds.rokomari.store/rokomari110/ProductNew20190903/1104X1581/T55_SmartWatch_With_Dual_Straps__Black_C-Non_Brand-19b2e-412274.jpg",
       "productName": "T55 Ultra Smart Watch",
-      "price": "৳ 1,100",
+      "price": "Tk 1,100",
       "cartIcon": "🛒"
     },
     {
       "id": 11,
-      "photo": "https://example.com/images/miband8.jpg",
+      "photo": "https://gadgetnmusic.com/wp-content/uploads/2023/08/Xiaomi-Band-8-Pro-Smart-Band.jpg",
       "productName": "Mi Band 8",
-      "price": "৳ 3,400",
+      "price": "Tk 3,400",
       "cartIcon": "🛒"
     },
     {
       "id": 12,
-      "photo": "https://example.com/images/gshock.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzTkOYByfWLi0Mmi6XxYrMtbtyco_AOVThmg&s",
       "productName": "Casio G-Shock GBD-800",
-      "price": "৳ 9,500",
+      "price": "Tk 9,500",
       "cartIcon": "🛒"
     }
   ]

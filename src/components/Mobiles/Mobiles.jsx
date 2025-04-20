@@ -3,6 +3,7 @@ import { Heart, ShoppingCart } from "lucide-react";
 
 const Mobiles = () => {
   const [mobiles, setMobile] = useState([]);
+  const [visibleCards, setVisibleCards] = useState(8);
 
   useEffect(() => {
     fetch("Mobiles.json")
@@ -10,39 +11,59 @@ const Mobiles = () => {
       .then((data) => setMobile(data));
   }, []);
 
+  const handleShowMore = () => {
+    setVisibleCards((prev) => Math.min(prev + 4, mobiles.length));
+  };
+
   return (
-    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      {mobiles.map((mobile) => (
-        <div
-          key={mobile.id}
-          className="bg-white rounded-2xl shadow p-4 relative hover:shadow-md transition"
-        >
-          <div className="absolute top-3 right-3 flex gap-2">
-            <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
-              <ShoppingCart size={18} />
-            </button>
-            <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
-              <Heart size={18} />
-            </button>
+    <div className="p-8 w-full bg-gray-100">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {mobiles.slice(0, visibleCards).map((mobile) => (
+          <div
+            key={mobile.id}
+            className="bg-white rounded-2xl shadow p-4 relative hover:shadow-md transition"
+          >
+            <div className="absolute top-3 right-3 flex gap-2">
+              <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
+                <ShoppingCart size={18} />
+              </button>
+              <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
+                <Heart size={18} />
+              </button>
+            </div>
+            <div className="group">
+  <img
+    src={mobile.photo}
+    alt={mobile.productName}
+    className="w-full h-40 object-contain mb-3 transition-transform duration-400 ease-in-out group-hover:scale-113 group-hover:z-10"
+  />
+</div>
+
+            <h2 className="text-lg font-semibold mb-1">
+              {mobile.productName}
+            </h2>
+            <div className="text-sm">
+              {mobile.oldPrice && (
+                <span className="line-through text-gray-400 mr-2">
+                  {mobile.oldPrice}
+                </span>
+              )}
+              <span className="text-lg text-orange-500 font-semibold">{mobile.price}</span>
+            </div>
           </div>
-          <img
-            src={mobile.photo}
-            alt={mobile.productName}
-            className="w-full h-48 object-contain mb-4"
-          />
-          <h2 className="text-base font-semibold mb-1">
-            {mobile.productName}
-          </h2>
-          <div className="text-sm">
-            {mobile.oldPrice && (
-              <span className="line-through text-gray-400 mr-2">
-                {mobile.oldPrice}
-              </span>
-            )}
-            <span className="text-orange-500 font-semibold">{mobile.price}</span>
-          </div>
+        ))}
+      </div>
+
+      {visibleCards < mobiles.length && (
+        <div className="flex justify-center mt-8">
+          <button
+            onClick={handleShowMore}
+            className="bg-black text-white px-6 py-2 rounded text-lg hover:bg-gray-800 transition"
+          >
+            Show More
+          </button>
         </div>
-      ))}
+      )}
     </div>
   );
 };

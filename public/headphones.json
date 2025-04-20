@@ -1,86 +1,86 @@
 [
     {
       "id": 1,
-      "photo": "https://example.com/images/jbl520bt.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnSvvxKR2fhep3sADWXED9pkcEgNgCQA29OA&s",
       "productName": "JBL Tune 520BT",
-      "price": "৳ 2,000",
+      "price": "Tk 2,000",
       "cartIcon": "🛒"
     },
     {
       "id": 2,
-      "photo": "https://example.com/images/sonywh1000xm5.jpg",
+      "photo": "https://diamu.com.bd/wp-content/uploads/2022/05/Sony-WH-1000XM5-Wireless-Headphones.jpg",
       "productName": "Sony WH-1000XM5",
-      "price": "৳ 38,000",
+      "price": "Tk 38,000",
       "cartIcon": "🛒"
     },
     {
       "id": 3,
-      "photo": "https://example.com/images/airpodspro2.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/AirPods-Pro-(2nd-generation)-USB%E2%80%90C-a-6909.jpg",
       "productName": "AirPods Pro 2",
-      "price": "৳ 28,000",
+      "price": "Tk 28,000",
       "cartIcon": "🛒"
     },
     {
       "id": 4,
-      "photo": "https://example.com/images/ankerq30.jpg",
+      "photo": "https://www.startech.com.bd/image/cache/catalog/headphone/anker/soundcore-life-q30/soundcore-life-q30-01-500x500.jpg",
       "productName": "Anker Soundcore Q30",
-      "price": "৳ 6,500",
+      "price": "Tk 6,500",
       "cartIcon": "🛒"
     },
     {
       "id": 5,
-      "photo": "https://example.com/images/boatrockerz.jpg",
+      "photo": "https://app-area.riointernational.com.bd/productImages/1736425040rDGfn.png",
       "productName": "boAt Rockerz 450",
-      "price": "৳ 1,800",
+      "price": "Tk 1,800",
       "cartIcon": "🛒"
     },
     {
       "id": 6,
-      "photo": "https://example.com/images/miheadphones.jpg",
+      "photo": "https://d61s2hjse0ytn.cloudfront.net/product-image/663/MI_In_Ear_Headphones_Basic.webp",
       "productName": "MI Wired Headphones",
-      "price": "৳ 1,200",
+      "price": "Tk 1,200",
       "cartIcon": "🛒"
     },
     {
       "id": 7,
-      "photo": "https://example.com/images/bose700.jpg",
+      "photo": "https://adminapi.applegadgetsbd.com/storage/media/large/Luxe_Silver_b-3111.jpg",
       "productName": "Bose 700",
-      "price": "৳ 42,000",
+      "price": "Tk 42,000",
       "cartIcon": "🛒"
     },
     {
       "id": 8,
-      "photo": "https://example.com/images/realmebuds.jpg",
+      "photo": "https://gadgetnmusic.com/wp-content/uploads/2022/12/ezgif-1-6618f4e65a.jpg",
       "productName": "Realme Buds Wireless 2",
-      "price": "৳ 2,400",
+      "price": "Tk 2,400",
       "cartIcon": "🛒"
     },
     {
       "id": 9,
-      "photo": "https://example.com/images/samsungbuds2pro.jpg",
+      "photo": "https://ds.rokomari.store/rokomari110/ProductNew20190903/1104X1581/Samsung_Galaxy_Buds2_Pro_True_Wireless_E-Samsung-3bd24-367164.png",
       "productName": "Samsung Galaxy Buds 2 Pro",
-      "price": "৳ 18,000",
+      "price": "Tk 18,000",
       "cartIcon": "🛒"
     },
     {
       "id": 10,
-      "photo": "https://example.com/images/lenovoneckband.jpg",
+      "photo": "https://www.startech.com.bd/image/cache/catalog/earphone/lenovo/HE05/he05-01-500x500.webp",
       "productName": "Lenovo HE05 Neckband",
-      "price": "৳ 750",
+      "price": "Tk 750",
       "cartIcon": "🛒"
     },
     {
       "id": 11,
-      "photo": "https://example.com/images/haylougt1.jpg",
+      "photo": "https://www.startech.com.bd/image/cache/catalog/earphone/xiaomi/haylou-gt1-pro-tws/haylou-gt1-pro-tws-500x500.jpg",
       "productName": "Haylou GT1 Pro",
-      "price": "৳ 1,600",
+      "price": "Tk 1,600",
       "cartIcon": "🛒"
     },
     {
       "id": 12,
-      "photo": "https://example.com/images/redmibuds4.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5l_s_VQJzxTAOQmHiRtjM3JpebB9Z_1Iwg&s",
       "productName": "Redmi Buds 4",
-      "price": "৳ 2,900",
+      "price": "Tk 2,900",
       "cartIcon": "🛒"
     }
   ]
