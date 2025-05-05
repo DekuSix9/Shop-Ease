@@ -44,7 +44,52 @@ const router = createBrowserRouter([
           {
             path:'smartwatches',
             element:<SmartWatches></SmartWatches>
-          }
+          },
+          {
+            path:'/mobiles/:id',
+            element:<Mobiles></Mobiles>,
+            loader:async()=>{
+              const res=await fetch('/Mobiles.json')
+              return res.json()
+            }
+          },
+          {
+            path:'/laptops/:id',
+            element:<PC></PC>,
+            loader:async()=>{
+              const res=await fetch('/pc&laptops.json')
+              return res.json()
+            }
+          },
+          {
+            path:'/headphones/:id',
+            element:<HeadPhones></HeadPhones>,
+            loader:async()=>{
+              const res=await fetch('/headphones.json')
+              return res.json()
+            }
+          },
+          {
+            path:'/smartwatches/:id',
+            element:<SmartWatches></SmartWatches>,
+            loader:async()=>{
+              const res=await fetch('/smartwatches.json')
+              return res.json()
+            }
+          },
+
+          {
+            path:'/all/:id',
+            element:<AllProducts></AllProducts>,
+            loader:async()=>{
+              const res=await fetch('/allproducts.json')
+              return res.json()
+            }
+          },
+
+
+
+
         ]
       }
     ]

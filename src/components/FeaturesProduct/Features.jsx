@@ -4,20 +4,21 @@ import watchImg from "../../assets/Img/image 1.png";
 import laptopImg from "../../assets/Img/image 2.png";
 import headphonesImg from "../../assets/Img/image 4.png";
 import { ShoppingCart, Heart } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const allCards = [
-  { title: "Iphone 16 pro Max (128 GB)", price: "Tk. 1,16,000", oldPrice: "Tk. 1,20,000", img: mobileImg },
-  { title: "Google Home Mini", price: "Tk. 19,990", oldPrice: "Tk. 20,390", img: watchImg, label: "SALE" },
-  { title: "Xiaomi ENCHEN Boost Hair Trimmer", price: "Tk. 1,500", oldPrice: "Tk. 1,320", img: laptopImg },
-  { title: "AirPods Pro (2nd generation)", price: "Tk. 25,000", oldPrice: "Tk. 24,850", img: headphonesImg, label: "10% OFF" },
-  { title: "Smart Watch", price: "Tk. 12,000", oldPrice: "Tk. 14,000", img: watchImg },
-  { title: "Laptop", price: "Tk. 85,000", oldPrice: "Tk. 90,000", img: laptopImg },
-  { title: "Gaming Headset", price: "Tk. 8,500", oldPrice: "Tk. 9,500", img: headphonesImg, label: "SALE" },
-  { title: "Smartphone", price: "Tk. 95,000", oldPrice: "Tk. 100,000", img: mobileImg },
-  { title: "Smart Watch", price: "Tk. 12,000", oldPrice: "Tk. 14,000", img: watchImg },
-  { title: "Laptop", price: "Tk. 85,000", oldPrice: "Tk. 90,000", img: laptopImg },
-  { title: "Gaming Headset", price: "Tk. 8,500", oldPrice: "Tk. 9,500", img: headphonesImg, label: "SALE" },
-  { title: "Smartphone", price: "Tk. 95,000", oldPrice: "Tk. 100,000", img: mobileImg }
+  {id:1, title: "Iphone 16 pro Max (128 GB)", price: "Tk. 1,16,000", oldPrice: "Tk. 1,20,000", img: mobileImg },
+  {id:2, title: "Google Home Mini", price: "Tk. 19,990", oldPrice: "Tk. 20,390", img: watchImg, label: "SALE" },
+  {id:3, title: "Xiaomi ENCHEN Boost Hair Trimmer", price: "Tk. 1,500", oldPrice: "Tk. 1,320", img: laptopImg },
+  {id:4, title: "AirPods Pro (2nd generation)", price: "Tk. 25,000", oldPrice: "Tk. 24,850", img: headphonesImg, label: "10% OFF" },
+  {id:5, title: "Smart Watch", price: "Tk. 12,000", oldPrice: "Tk. 14,000", img: watchImg },
+  {id:6, title: "Laptop", price: "Tk. 85,000", oldPrice: "Tk. 90,000", img: laptopImg },
+  {id:7, title: "Gaming Headset", price: "Tk. 8,500", oldPrice: "Tk. 9,500", img: headphonesImg, label: "SALE" },
+  {id:8, title: "Smartphone", price: "Tk. 95,000", oldPrice: "Tk. 100,000", img: mobileImg },
+  { id:9, title: "Smart Watch", price: "Tk. 12,000", oldPrice: "Tk. 14,000", img: watchImg },
+  {id:10, title: "Laptop", price: "Tk. 85,000", oldPrice: "Tk. 90,000", img: laptopImg },
+  {id:11, title: "Gaming Headset", price: "Tk. 8,500", oldPrice: "Tk. 9,500", img: headphonesImg, label: "SALE" },
+  {id:12, title: "Smartphone", price: "Tk. 95,000", oldPrice: "Tk. 100,000", img: mobileImg }
 ];
 
 const Features = () => {
@@ -34,6 +35,10 @@ const Features = () => {
     setSelectedProduct(product);
     setShowModal(true);
   };
+
+
+
+
 
   return (
     <div className="w-full py-8 bg-gray-100">
@@ -61,7 +66,7 @@ const Features = () => {
               <button
                 className="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600 transition"
               >
-                Go to Cart
+                Add to Cart
               </button>
             </div>
           </div>
@@ -73,21 +78,21 @@ const Features = () => {
         {allCards.slice(0, visibleCards).map((card, index) => (
           <div key={index} className="w-72 p-4 bg-white rounded-lg shadow-lg relative group transition hover:shadow-2xl">
             
-            {/* SALE or OFFER LABEL */}
+          
             {card.label && (
               <span className="absolute top-3 left-3 bg-orange-500 text-white text-xs px-2 py-1 rounded">
                 {card.label}
               </span>
             )}
 
-            {/* Icons */}
+           
             <div className="absolute top-3 right-3 flex gap-2 z-10">
-              <button
+              <Link 
                 onClick={(e) => handleAddToCart(card, e)}
                 className="bg-white p-2 rounded-full shadow hover:bg-gray-100 hover:scale-110 transition"
               >
                 <ShoppingCart size={18} />
-              </button>
+              </Link>
               <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100 hover:scale-110 transition">
                 <Heart size={18} />
               </button>
@@ -105,7 +110,7 @@ const Features = () => {
         ))}
       </div>
 
-      {/* Show More Button */}
+      
       {visibleCards < allCards.length && (
         <div className="flex justify-center mt-6">
           <button

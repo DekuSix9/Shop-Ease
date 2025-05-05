@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Heart, ShoppingCart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AllProducts = () => {
   const [allproducts, setAllProducts] = useState([]);
@@ -63,12 +64,12 @@ const AllProducts = () => {
           >
            
             <div className="absolute top-3 right-3 flex gap-2">
-              <button
+              <Link to={`/all/${product.id}`}
                 className="bg-white p-2 rounded-full shadow hover:bg-gray-100"
                 onClick={() => handleAddToCart(product)}
               >
                 <ShoppingCart size={18} />
-              </button>
+              </Link>
               <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
                 <Heart size={18} />
               </button>

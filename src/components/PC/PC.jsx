@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Heart, ShoppingCart } from "lucide-react"; 
+import { Link } from "react-router-dom";
 
 const PC = () => {
   const [pc, setPc] = useState([]);
@@ -62,9 +63,9 @@ const PC = () => {
             className="bg-white rounded-2xl shadow p-4 relative hover:shadow-md transition"
           >
             <div className="absolute top-3 right-3 flex gap-2">
-              <button onClick={() => handleAddToCart(laptops)} className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
+              <Link to={`/laptops/${laptops.id}`} onClick={() => handleAddToCart(laptops)} className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
                 <ShoppingCart size={18} />
-              </button>
+              </Link>
               <button className="bg-white p-2 rounded-full shadow hover:bg-gray-100">
                 <Heart size={18} />
               </button>
