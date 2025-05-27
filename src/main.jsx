@@ -15,6 +15,7 @@ import Mobiles from './components/Mobiles/Mobiles';
 import PC from './components/PC/PC';
 import HeadPhones from './components/Headphones/HeadPhones';
 import SmartWatches from './components/SmartWatches/SmartWatches';
+import CartProvider from './components/CartContext/CartContext';
 
 const router = createBrowserRouter([
   {
@@ -25,71 +26,18 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
         children: [
-          {
-            index: true,  
-            element: <AllProducts />
-          },
-          {
-            path: 'mobiles', 
-            element: <Mobiles />
-          },
-          {
-            path:'laptops',
-            element:<PC></PC>
-          },
-          {
-            path:'headphones',
-            element:<HeadPhones></HeadPhones>
-          },
-          {
-            path:'smartwatches',
-            element:<SmartWatches></SmartWatches>
-          },
-          {
-            path:'/mobiles/:id',
-            element:<Mobiles></Mobiles>,
-            loader:async()=>{
-              const res=await fetch('/Mobiles.json')
-              return res.json()
-            }
-          },
-          {
-            path:'/laptops/:id',
-            element:<PC></PC>,
-            loader:async()=>{
-              const res=await fetch('/pc&laptops.json')
-              return res.json()
-            }
-          },
-          {
-            path:'/headphones/:id',
-            element:<HeadPhones></HeadPhones>,
-            loader:async()=>{
-              const res=await fetch('/headphones.json')
-              return res.json()
-            }
-          },
-          {
-            path:'/smartwatches/:id',
-            element:<SmartWatches></SmartWatches>,
-            loader:async()=>{
-              const res=await fetch('/smartwatches.json')
-              return res.json()
-            }
-          },
+          { index: true, element: <AllProducts /> },
+          { path: 'mobiles', element: <Mobiles /> },
+          { path: 'laptops', element: <PC /> },
+          { path: 'headphones', element: <HeadPhones /> },
+          { path: 'smartwatches', element: <SmartWatches /> },
 
-          {
-            path:'/all/:id',
-            element:<AllProducts></AllProducts>,
-            loader:async()=>{
-              const res=await fetch('/allproducts.json')
-              return res.json()
-            }
-          },
-
-
-
-
+          // ✅ Dynamic product detail pages
+          { path: 'mobiles/:id', element: <Mobiles />, loader: async () => (await fetch('/Mobiles.json')).json() },
+          { path: 'laptops/:id', element: <PC />, loader: async () => (await fetch('/pc&laptops.json')).json() },
+          { path: 'headphones/:id', element: <HeadPhones />, loader: async () => (await fetch('/headphones.json')).json() },
+          { path: 'smartwatches/:id', element: <SmartWatches />, loader: async () => (await fetch('/smartwatches.json')).json() },
+          { path: 'all/:id', element: <AllProducts />, loader: async () => (await fetch('/allproducts.json')).json() },
         ]
       }
     ]
@@ -102,6 +50,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
   </StrictMode>
 );
